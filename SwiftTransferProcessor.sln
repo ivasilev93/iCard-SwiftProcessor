@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8FE7DD2D-62F1-4D19-9AD7-722535D4F0A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{128E28FC-B67D-4F4C-9610-9FE47C89056F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftTransferProcessor", "SwiftTransferProcessor\SwiftTransferProcessor.csproj", "{96759F1C-2792-4CEA-B57D-0607F7930800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftTransferProcessor.Common", "SwiftTransferProcessor.Common\SwiftTransferProcessor.Common.csproj", "{33431848-81AF-4D9A-BCD9-9826069DE9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftTransferProcessor.Data", "SwiftTransferProcessor.Data\SwiftTransferProcessor.Data.csproj", "{1B4BDB67-7791-4FD9-BE9C-05B93193A0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftTransferProcessor.Data.Models", "SwiftTransferProcessor.Data.Models\SwiftTransferProcessor.Data.Models.csproj", "{B549D64C-2DF4-489F-8489-CDD0B3138F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftTransferProcessor.Tests", "SwiftTransferProcessor.Tests\SwiftTransferProcessor.Tests.csproj", "{C8185C21-9881-4273-90AC-F1B534F41700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96759F1C-2792-4CEA-B57D-0607F7930800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96759F1C-2792-4CEA-B57D-0607F7930800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96759F1C-2792-4CEA-B57D-0607F7930800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96759F1C-2792-4CEA-B57D-0607F7930800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33431848-81AF-4D9A-BCD9-9826069DE9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33431848-81AF-4D9A-BCD9-9826069DE9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33431848-81AF-4D9A-BCD9-9826069DE9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33431848-81AF-4D9A-BCD9-9826069DE9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4BDB67-7791-4FD9-BE9C-05B93193A0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4BDB67-7791-4FD9-BE9C-05B93193A0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4BDB67-7791-4FD9-BE9C-05B93193A0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4BDB67-7791-4FD9-BE9C-05B93193A0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B549D64C-2DF4-489F-8489-CDD0B3138F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B549D64C-2DF4-489F-8489-CDD0B3138F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B549D64C-2DF4-489F-8489-CDD0B3138F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B549D64C-2DF4-489F-8489-CDD0B3138F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8185C21-9881-4273-90AC-F1B534F41700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8185C21-9881-4273-90AC-F1B534F41700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8185C21-9881-4273-90AC-F1B534F41700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8185C21-9881-4273-90AC-F1B534F41700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96759F1C-2792-4CEA-B57D-0607F7930800} = {8FE7DD2D-62F1-4D19-9AD7-722535D4F0A5}
+		{33431848-81AF-4D9A-BCD9-9826069DE9F9} = {8FE7DD2D-62F1-4D19-9AD7-722535D4F0A5}
+		{1B4BDB67-7791-4FD9-BE9C-05B93193A0BC} = {128E28FC-B67D-4F4C-9610-9FE47C89056F}
+		{B549D64C-2DF4-489F-8489-CDD0B3138F0B} = {128E28FC-B67D-4F4C-9610-9FE47C89056F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AD79C87-2D53-4E3F-BF2E-CFF203108F04}
+	EndGlobalSection
+EndGlobal
