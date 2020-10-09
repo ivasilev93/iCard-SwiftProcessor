@@ -40,12 +40,14 @@ namespace SwiftTransferProcessor
                 string filePath = null;
 
                 lock (locker)
+                {
                     if (fileNamesQueue.Count > 0)
                     {
                         filePath = fileNamesQueue.Dequeue();
 
                         if (filePath == null) return;
                     }
+                }
 
                 if (filePath != null)
                 {
